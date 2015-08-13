@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <!--类型别名定义。今后可只用Student来代替它冗长的
+全限定名-->
+<typeAliases>
+	<typeAlias alias="Account" type="com.tanglin.blog.entity.Account"/>
+</typeAliases>
+
+
+<mappers>
+    <mapper resource="sqlmap/AccountMapper.xml"/>
+</mappers>
+
+</configuration>
