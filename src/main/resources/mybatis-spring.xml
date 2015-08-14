@@ -18,7 +18,7 @@
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" >
         <property name="basePackage" value="com.tanglin.blog.dao" />
     </bean>
-	<!--引入属性文件 -->
+	<!--引入属性文件，从mybatis.propertis中解析变量 -->
 	<context:property-placeholder location="classpath:mybatis.properties" />
 	
 
