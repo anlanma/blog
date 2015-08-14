@@ -13,4 +13,9 @@ hs_err_pid*
 
 # ignore  .gitignore .classpath .settings .project      
 .*
+
+# ignore dir target/
 target/
+
+# ignore .iml
+*.iml
